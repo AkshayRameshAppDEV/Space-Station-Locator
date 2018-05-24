@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "space station locator",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop the application",
+                        "thank you"
+                    ]
+                },
+                {
+                    "name": "spaceStationLocatorIntent",
+                    "slots": [],
+                    "samples": [
+                        "again",
+                        "locate the space station current location",
+                        "locate the space station currently",
+                        "locate the space station location",
+                        "locate the current location of space station",
+                        "Locate the space station",
+                        "currently where is space station",
+                        "where is space station currently",
+                        "where is space station",
+                        "where is the space station"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
